@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roadway>
+	<grid>
+		<row label = "A">
+			<tile column = "1" type = "blank" degree = "0"/>
+			<tile column = "2" type = "l" degree = "270"/>
+			<tile column = "3" type = "i" degree = "270"/>
+			<tile column = "4" type = "i" degree = "90"/>
+			<tile column = "5" type = "t" degree = "0"/>
+			<tile column = "6" type = "i" degree = "270"/>
+			<tile column = "7" type = "i" degree = "90"/>
+			<tile column = "8" type = "l" degree = "180"/>
+			<tile column = "9" type = "blank" degree = "90"/>
+		</row>
+		<row label = "B">
+			<tile column = "1" type = "blank" degree = "0"/>
+			<tile column = "2" type = "i" degree = "180"/>
+			<tile column = "3" type = "l" degree = "270"/>
+			<tile column = "4" type = "i" degree = "270"/>
+			<tile column = "5" type = "t" degree = "270"/>
+			<tile column = "6" type = "blank" degree = "90"/>
+			<tile column = "7" type = "blank" degree = "180"/>
+			<tile column = "8" type = "i" degree = "0"/>
+			<tile column = "9" type = "blank" degree = "0"/>
+		</row>
+		<row label = "C">
+			<tile column = "1" type = "blank" degree = "0"/>
+			<tile column = "2" type = "t" degree = "90"/>
+			<tile column = "3" type = "l" degree = "90"/>
+			<tile column = "4" type = "blank" degree = "90"/>
+			<tile column = "5" type = "t" degree = "90"/>
+			<tile column = "6" type = "i" degree = "270"/>
+			<tile column = "7" type = "t" degree = "0"/>
+			<tile column = "8" type = "t" degree = "270"/>
+			<tile column = "9" type = "blank" degree = "180"/>
+		</row>
+		<row label = "D">
+			<tile column = "1" type = "blank" degree = "90"/>
+			<tile column = "2" type = "i" degree = "0"/>
+			<tile column = "3" type = "blank" degree = "0"/>
+			<tile column = "4" type = "blank" degree = "180"/>
+			<tile column = "5" type = "l" degree = "0"/>
+			<tile column = "6" type = "t" degree = "0"/>
+			<tile column = "7" type = "t" degree = "180"/>
+			<tile column = "8" type = "t" degree = "270"/>
+			<tile column = "9" type = "blank" degree = "270"/>
+		</row>
+		<row label = "E">
+			<tile column = "1" type = "blank" degree = "90"/>
+			<tile column = "2" type = "i" degree = "0"/>
+			<tile column = "3" type = "l" degree = "270"/>
+			<tile column = "4" type = "i" degree = "270"/>
+			<tile column = "5" type = "i" degree = "90"/>
+			<tile column = "6" type = "t" degree = "270"/>
+			<tile column = "7" type = "blank" degree = "0"/>
+			<tile column = "8" type = "i" degree = "0"/>
+			<tile column = "9" type = "blank" degree = "0"/>
+		</row>
+		<row label = "F">
+			<tile column = "1" type = "blank" degree = "90"/>
+			<tile column = "2" type = "l" degree = "0"/>
+			<tile column = "3" type = "+" degree = "270"/>
+			<tile column = "4" type = "l" degree = "180"/>
+			<tile column = "5" type = "blank" degree = "0"/>
+			<tile column = "6" type = "i" degree = "180"/>
+			<tile column = "7" type = "blank" degree = "180"/>
+			<tile column = "8" type = "i" degree = "0"/>
+			<tile column = "9" type = "blank" degree = "180"/>
+		</row>
+		<row label = "G">
+			<tile column = "1" type = "blank" degree = "0"/>
+			<tile column = "2" type = "blank" degree = "0"/>
+			<tile column = "3" type = "l" degree = "0"/>
+			<tile column = "4" type = "t" degree = "180"/>
+			<tile column = "5" type = "i" degree = "90"/>
+			<tile column = "6" type = "t" degree = "180"/>
+			<tile column = "7" type = "i" degree = "270"/>
+			<tile column = "8" type = "t" degree = "270"/>
+			<tile column = "9" type = "blank" degree = "0"/>
+		</row>
+		<row label = "H">
+			<tile column = "1" type = "blank" degree = "270"/>
+			<tile column = "2" type = "blank" degree = "180"/>
+			<tile column = "3" type = "blank" degree = "0"/>
+			<tile column = "4" type = "blank" degree = "0"/>
+			<tile column = "5" type = "blank" degree = "180"/>
+			<tile column = "6" type = "blank" degree = "90"/>
+			<tile column = "7" type = "l" degree = "270"/>
+			<tile column = "8" type = "t" degree = "270"/>
+			<tile column = "9" type = "blank" degree = "0"/>
+		</row>
+		<row label = "I">
+			<tile column = "1" type = "blank" degree = "90"/>
+			<tile column = "2" type = "blank" degree = "270"/>
+			<tile column = "3" type = "blank" degree = "0"/>
+			<tile column = "4" type = "blank" degree = "90"/>
+			<tile column = "5" type = "blank" degree = "180"/>
+			<tile column = "6" type = "blank" degree = "90"/>
+			<tile column = "7" type = "l" degree = "0"/>
+			<tile column = "8" type = "l" degree = "90"/>
+			<tile column = "9" type = "blank" degree = "0"/>
+		</row>
+	</grid>
+	<cars>
+		<car color = "red" ai = "1" speed = "1.0">
+			<location x = "2" y = "F"/>
+		</car>
+		<car color = "blue" ai = "2" speed = "2.5">
+			<location x = "5" y = "A"/>
+		</car>
+		<car color = "yellow" ai = "3" speed = "0.5">
+			<location x = "8" y = "H"/>
+		</car>
+		<car color = "orange" ai = "4" speed = "1.5">
+			<location x = "5" y = "C"/>
+		</car>
+		<car color = "green" ai = "2" speed = "2.0">
+			<location x = "4" y = "G"/>
+		</car>
+	</cars>
+</roadway>
